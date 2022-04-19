@@ -43,19 +43,19 @@
 }
 
 .slide:nth-child(1){
-    background: url('/slide/image/pexels-magda-ehlers-3853301.jpg' ) no-repeat center/cover ;
+    background: url('image/pexels-magda-ehlers-3853301.jpg' ) no-repeat center/cover ;
 }
 .slide:nth-child(2){
-    background: url('/slide/image/pexels-patrick-boyer-3868552.jpg' ) no-repeat center/cover ;
+    background: url('/image/pexels-patrick-boyer-3868552.jpg' ) no-repeat center/cover ;
 }
 .slide:nth-child(3){
-    background: url('/slide/image/pexels-pixabay-36717.jpg' ) no-repeat center/cover ;
+    background: url('/image/pexels-pixabay-36717.jpg' ) no-repeat center/cover ;
 }
 .slide:nth-child(4){
-    background: url('/slide/image/pexels-robert-schrader-7603274.jpg' ) no-repeat center/cover ;
+    background: url('/image/pexels-robert-schrader-7603274.jpg' ) no-repeat center/cover ;
 }
 .slide:nth-child(5){
-    background: url('/slide/image/pexels-stein-egil-liland-3855632.jpg' ) no-repeat center/cover ;
+    background: url('/image/pexels-stein-egil-liland-3855632.jpg' ) no-repeat center/cover ;
 }
 
 .indicators{
