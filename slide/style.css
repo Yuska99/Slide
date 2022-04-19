@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.slider{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.slide{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity .4s linear;
+}
+
+.active{
+    opacity: 1;
+}
+
+.slide .inner   {
+    position:absolute;
+    bottom: 50px;
+    left: 50px;
+    background-color: rgb(0,0,0,.8);
+    color: rgba(255, 255, 255, 0.788);
+    padding: 30px 35px ;
+    border-radius: 50px;
+    opacity: 0;
+}
+
+.slide.active .inner   {
+    opacity: 1;
+}
+
+.slide:nth-child(1){
+    background: url('/slide/image/pexels-magda-ehlers-3853301.jpg' ) no-repeat center/cover ;
+}
+.slide:nth-child(2){
+    background: url('/slide/image/pexels-patrick-boyer-3868552.jpg' ) no-repeat center/cover ;
+}
+.slide:nth-child(3){
+    background: url('/slide/image/pexels-pixabay-36717.jpg' ) no-repeat center/cover ;
+}
+.slide:nth-child(4){
+    background: url('/slide/image/pexels-robert-schrader-7603274.jpg' ) no-repeat center/cover ;
+}
+.slide:nth-child(5){
+    background: url('/slide/image/pexels-stein-egil-liland-3855632.jpg' ) no-repeat center/cover ;
+}
+
+.indicators{
+    position: absolute;
+    bottom: 15px;
+    right: 25px;
+    cursor: default;
+}
+
+.indicators button{
+    padding: 10px 15px;
+    font-size: 15px;
+    background-color: rgb(0,0,0,.6);
+    color: rgba(255, 255, 255, 0.555);
+    border: 0;
+
+}
+button:hover{
+    transition: .3s ;
+    background-color: black;
+    color: #fff;
+}
